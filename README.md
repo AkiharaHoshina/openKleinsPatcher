@@ -6,7 +6,7 @@
 
 把**你自己合法持有**的一份《环行旅舍》客户端，改成能连本地假服务端的版本。
 
-这是 [openKleinsServer](../openKleinsServer) 的配套工具：服务端负责"说协议"，本工具负责让
+这是 [openKleinsServer](https://github.com/AkiharaHoshina/openKleinsServer) 的配套工具：服务端负责"说协议"，本工具负责让
 客户端"愿意跟它说话"（把平台 URL 指到本机、把完整性校验放过、把 Lua 补丁铺进去）。
 
 > **本仓库不含任何游戏内容。** 它只改了客户端**自己那几个文件**，且所有改动都能一键还原。
@@ -32,7 +32,7 @@
 
 * 一份**干净**的《环行旅舍》客户端（国服版或 Steam 版都行，会自动识别）
 * **先关掉游戏** —— 它占着 `bk.zip`，开着游戏打补丁会失败
-* 服务端已经准备好了（[openKleinsServer](../openKleinsServer)）
+* 服务端已经准备好了（[openKleinsServer](https://github.com/AkiharaHoshina/openKleinsServer)）
 
 ### 1. 打补丁
 
