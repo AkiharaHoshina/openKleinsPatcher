@@ -1,6 +1,7 @@
 # ── 构建产物 ────────────────────────────────────────────
 devtools/_build_patcher/
 _build/
+release/
 *.pdb
 *.manifest
 *.exe
