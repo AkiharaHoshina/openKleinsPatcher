@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="自由旅舍 FreeKleins —— Patcher" src="assets/banner.png" width="100%">
+</p>
+
 # openKleinsPatcher
 
 把**你自己合法持有**的一份《环行旅舍》客户端，改成能连本地假服务端的版本。
