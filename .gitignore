@@ -1,0 +1,55 @@
+# ── 构建产物 ────────────────────────────────────────────
+devtools/_build_patcher/
+_build/
+*.pdb
+*.manifest
+*.exe
+
+# ── ★★★ 游戏派生数据：一律不进仓库 ───────────────────────
+#   下面这些都是从客户端**提取 / 反编译**出来的东西, 属于游戏本体, 不是我们的代码。
+#   （服务端仓库的 .gitignore 里有一模一样的一段, 两边口径保持一致。）
+#
+#   · devtools/il2cpp_steam/      Il2CppDumper 的产物 —— dump.cs(反编译出来的 C#)、
+#                                 il2cpp.h、script.json、stringliteral.json、
+#                                 DummyDll/*.dll。**全是游戏代码**, 一百多 MB。
+#   · devtools/multiver/_work*/   每个工作副本里的 `_lua_*_pristine.orig`
+#                                 = **游戏原版 Lua 字节码**
+#   · devtools/multiver/_bk/      bk.zip 解出来的 data.bin / rt.zip —— 同样是游戏数据
+#
+#   ★ `patches/lua/` **不在此列** —— 那 31 个是我们自己写的 wrapper（编译产物）,
+#     判定依据: 每一个都 `require` 它的 `_orig` 兄弟, 里面没有游戏代码。
+il2cpp_steam/
+devtools/il2cpp_steam/
+devtools/multiver/_work*/
+devtools/multiver/_bk/
+*.orig
+*.assets
+*.resS
+*.dll
+GameAssembly*
+*.ab
+*.bytes
+bk.zip
+data.bin
+data.unity3d
+
+# ── 逆向过程中的中间产物（游戏内容的切片 / 反汇编）─────────
+devtools/_dis_*.txt
+devtools/_bd_*.txt
+
+# ── 运行期状态 / 一次性垃圾 ─────────────────────────────
+*.log
+*.flag
+*.tmp
+*.bak
+_kleins_backup/
+_commit_msg.txt
+
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── 杂项 ───────────────────────────────────────────────
+Thumbs.db
+desktop.ini

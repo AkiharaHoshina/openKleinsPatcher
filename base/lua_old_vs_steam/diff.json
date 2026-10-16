@@ -1,0 +1,145 @@
+{
+ "added": [
+  "logic/active_box_ui/view_active_100021_ui.lua",
+  "logic/active_box_ui/view_active_100022_ui.lua",
+  "logic/active_box_ui/view_active_400001_ui.lua",
+  "logic/active_box_ui/view_active_box_ui.lua",
+  "logic/gm_ui/gm_data.lua",
+  "logic/gm_ui/gm_function.lua",
+  "logic/gm_ui/logic_gm_tools.lua",
+  "logic/gm_ui/view_battle_training.lua",
+  "logic/gm_ui/view_battle_training_rolePanel.lua",
+  "logic/gm_ui/view_battle_training_spawn.lua",
+  "logic/gm_ui/view_gm_fps_ui.lua",
+  "logic/gm_ui/view_gm_ui.lua",
+  "logic/turn_activity/view_page/view_activity_achieve_ui.lua",
+  "logic/turn_activity/view_page/view_activity_battle_ui.lua",
+  "logic/turn_activity/view_page/view_activity_home_ui.lua",
+  "logic/turn_activity/view_page/view_activity_plot_ui.lua",
+  "logic/turn_activity/view_page/view_activity_shop_ui.lua",
+  "logic/turn_activity/view_page/view_activity_task_ui.lua"
+ ],
+ "counts": {
+  "added": 18,
+  "deleted": 0,
+  "patched": 690,
+  "pristine": 672,
+  "same": 656,
+  "samelen_changed": 5,
+  "size_changed": 11
+ },
+ "deleted": [],
+ "patched_root": "F:\\originKleinsSteam\\Win\\lua",
+ "pristine_root": "D:\\hxls\\Win\\lua",
+ "samelen_changed": [
+  {
+   "path": "logic/emotion_shop_ui/logic_emotion_shop.lua",
+   "sha_new": "9b22c7426b33b919a5fef8e98a4a4358c772b8ba1a8b83272eb5c2af2a7c61b9",
+   "sha_old": "40302eacb80eb7890878f018571221a4131e694e34089392dab7d17b8a5a735f",
+   "size": 485
+  },
+  {
+   "path": "logic/emotion_shop_ui/view_emotion_shop_ui.lua",
+   "sha_new": "aa8a9cfc457ed5ac1fde88c33eb00d8319a1a812ae26460ea6e7cf99af781974",
+   "sha_old": "a3a58b8b906c195c2a661a4bb82d509098d5742c5db9e0de037b4638ede9ca4e",
+   "size": 8428
+  },
+  {
+   "path": "logic/event_emotion/logic_event_emotion.lua",
+   "sha_new": "0e242953e379fea0ef02f588387d3ddbeb1242fa2873b3e4e141ae89aa579c07",
+   "sha_old": "37607ca272429cb9c239ee68d49b207c92cb7e9c46caaec0d89935344e283d43",
+   "size": 9784
+  },
+  {
+   "path": "logic/event_emotion/view_event_emotion_home_ui.lua",
+   "sha_new": "0959605f043b133d33b0e4b28da301e7a70ec39a80af72fa8bc419bc3578da21",
+   "sha_old": "c260b26f475ef07d3a6ec14ec85900c39f557dc5dc727e418c01908548ed58a4",
+   "size": 14468
+  },
+  {
+   "path": "logic/event_emotion/view_event_emotion_task_ui.lua",
+   "sha_new": "f7726a62cdc04ae208b1d79c61c88cebc82c8a232fb2cf408a2f88bec60f08fd",
+   "sha_old": "90589a9abee820fa0943fb2a3ad456f65f205010139e271a6ed4cddc24425574",
+   "size": 9457
+  }
+ ],
+ "size_changed": [
+  {
+   "from": 1219,
+   "path": "Main.lua",
+   "sha_new": "d8a9fca679f4dd9f0c9be50ad28456754d0ffa0b6457538335235fd7cdec9108",
+   "sha_old": "16d3782e624e4a4f01164f9b91eb1a094b7a75df653777b5ad8fd775b0dad54d",
+   "to": 1427
+  },
+  {
+   "from": 21010,
+   "path": "logic/setting_ui/logic_setting.lua",
+   "sha_new": "fe9b5abb6de3faae3265bb8c1ce004ab42adbb092b6610e71f94021bf15b6caa",
+   "sha_old": "cf9da73da658db3e56032d4e972114c6ba3914400f74766e1faeda5f7aa6f5b5",
+   "to": 21118
+  },
+  {
+   "from": 8884,
+   "path": "logic/anti_addiction/logic_anti_addiction.lua",
+   "sha_new": "1cd9bd60e14198809c826f2c9b2032d38597eaa49fdfbcad6acf2c34aec248d8",
+   "sha_old": "007a42ea376ea0f17d5a9f6fc108302f8cb6dcd50f57679ad0ed17aac0af4723",
+   "to": 8860
+  },
+  {
+   "from": 8808,
+   "path": "logic/event_emotion/view_event_emotion_level_detail_ui.lua",
+   "sha_new": "83031fd06238bd868532aff3ebdfec53d421b36b5e799a1d7115efa95ec5334a",
+   "sha_old": "63696f33bd777cb99b64de43e5136225a2380d45d645fb7c3c7e19149feb9c2e",
+   "to": 8771
+  },
+  {
+   "from": 13076,
+   "path": "logic/event_emotion/view_event_emotion_level_list_ui.lua",
+   "sha_new": "203a7c05b5d9364b8913cc5a8c009da40b60fa603ce6f2a7be2fd272aeafcb2c",
+   "sha_old": "5eabb30319fb24b7167ca92c9c8cf4f7f3044bb07962b1e37c5d978862593907",
+   "to": 12235
+  },
+  {
+   "from": 13322,
+   "path": "logic/event_emotion/view_event_emotion_memory_analysis_ui.lua",
+   "sha_new": "a93aded9c732e831852e30637f81feeb6e5e7a39c8f00349725ad053a61c54cd",
+   "sha_old": "198888d2a060b657415dcf09c959079e85715cb874457e6d4b12552df22720ad",
+   "to": 13288
+  },
+  {
+   "from": 8587,
+   "path": "logic/framework/lua_data_center.lua",
+   "sha_new": "82bb23f44783b976ddae4ae0651b08033b696fd443f497789be75744905c0999",
+   "sha_old": "5480a15fdde895bf111981aa0b9bc64263da8acee6d3e74c5f9ce320c5685be6",
+   "to": 8553
+  },
+  {
+   "from": 8811,
+   "path": "logic/login_ui/view_game_main_ui.lua",
+   "sha_new": "32788f73245079381347852e50e4acd8faa4e0c9f4cdafa950d058be6becf51d",
+   "sha_old": "653c9bd4efd34baee9af16ff65bde348343708972ca66ff8281a5f45a80387f5",
+   "to": 8791
+  },
+  {
+   "from": 21790,
+   "path": "logic/recruit_ui/view_recruit_free_ui.lua",
+   "sha_new": "2c3fb483f00723e88a760183b5bd7875d762b84a14e83f420141a74c718ecb62",
+   "sha_old": "010a7fb2fb0736b3b91e4b848905de217ddf230372783657ebf9a280c92f15a2",
+   "to": 21759
+  },
+  {
+   "from": 9967,
+   "path": "logic/setting_ui/view_setting_account_ui.lua",
+   "sha_new": "54bf645c61413e976fc8660c8d232a3ce6cf2b314d27731c06f7befbe31639eb",
+   "sha_old": "64675dd938af51b88b0aa1c772829b1b14d4e2c16e0717dee62d21a4193dbe43",
+   "to": 9867
+  },
+  {
+   "from": 7326,
+   "path": "sdk/sdk_ios.lua",
+   "sha_new": "753eb35b1fcf88f21404c41c048ee074ca7f489e404e67dfd03a3b318b589435",
+   "sha_old": "2686740575f228fb9aeb86fe7690fc596babe16582e823c1cc356f62cbc57bfc",
+   "to": 6970
+  }
+ ]
+}

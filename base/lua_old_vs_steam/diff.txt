@@ -1,0 +1,52 @@
+字节级权威差异表
+  干净端: D:\hxls\Win\lua
+  补丁端: F:\originKleinsSteam\Win\lua
+
+  相同文件      : 656
+  删除(只在A)   : 0
+  新增(只在B)   : 18
+  长度变化      : 11
+  ★等长但内容不同: 5
+
+=== ★ 等长但内容不同（纯长度比对会全漏）===
+  logic/emotion_shop_ui/logic_emotion_shop.lua  (485 字节)  [补丁]  40302eacb80e -> 9b22c7426b33
+  logic/emotion_shop_ui/view_emotion_shop_ui.lua  (8428 字节)  [补丁]  a3a58b8b906c -> aa8a9cfc457e
+  logic/event_emotion/logic_event_emotion.lua  (9784 字节)  [补丁]  37607ca27242 -> 0e242953e379
+  logic/event_emotion/view_event_emotion_home_ui.lua  (14468 字节)  [补丁]  c260b26f475e -> 0959605f043b
+  logic/event_emotion/view_event_emotion_task_ui.lua  (9457 字节)  [补丁]  90589a9abee8 -> f7726a62cdc0
+
+=== 新增文件 ===
+  logic/active_box_ui/view_active_100021_ui.lua  [补丁]  2860 字节
+  logic/active_box_ui/view_active_100022_ui.lua  [补丁]  722 字节
+  logic/active_box_ui/view_active_400001_ui.lua  [补丁]  997 字节
+  logic/active_box_ui/view_active_box_ui.lua  [补丁]  4603 字节
+  logic/gm_ui/gm_data.lua  [补丁]  15724 字节
+  logic/gm_ui/gm_function.lua  [补丁]  27452 字节
+  logic/gm_ui/logic_gm_tools.lua  [补丁]  622 字节
+  logic/gm_ui/view_battle_training.lua  [补丁]  9469 字节
+  logic/gm_ui/view_battle_training_rolePanel.lua  [补丁]  9272 字节
+  logic/gm_ui/view_battle_training_spawn.lua  [补丁]  6937 字节
+  logic/gm_ui/view_gm_fps_ui.lua  [补丁]  881 字节
+  logic/gm_ui/view_gm_ui.lua  [补丁]  7776 字节
+  logic/turn_activity/view_page/view_activity_achieve_ui.lua  [补丁]  3620 字节
+  logic/turn_activity/view_page/view_activity_battle_ui.lua  [补丁]  15017 字节
+  logic/turn_activity/view_page/view_activity_home_ui.lua  [补丁]  13374 字节
+  logic/turn_activity/view_page/view_activity_plot_ui.lua  [补丁]  6729 字节
+  logic/turn_activity/view_page/view_activity_shop_ui.lua  [补丁]  5319 字节
+  logic/turn_activity/view_page/view_activity_task_ui.lua  [补丁]  4310 字节
+
+=== 删除文件 ===
+  （无）
+
+=== 长度变化 ===
+  Main.lua                                                                     1219 ->     1427  [补丁]
+  logic/anti_addiction/logic_anti_addiction.lua                                8884 ->     8860  [补丁]
+  logic/event_emotion/view_event_emotion_level_detail_ui.lua                   8808 ->     8771  [补丁]
+  logic/event_emotion/view_event_emotion_level_list_ui.lua                    13076 ->    12235  [补丁]
+  logic/event_emotion/view_event_emotion_memory_analysis_ui.lua               13322 ->    13288  [补丁]
+  logic/framework/lua_data_center.lua                                          8587 ->     8553  [补丁]
+  logic/login_ui/view_game_main_ui.lua                                         8811 ->     8791  [补丁]
+  logic/recruit_ui/view_recruit_free_ui.lua                                   21790 ->    21759  [补丁]
+  logic/setting_ui/logic_setting.lua                                          21010 ->    21118  [补丁]
+  logic/setting_ui/view_setting_account_ui.lua                                 9967 ->     9867  [补丁]
+  sdk/sdk_ios.lua                                                              7326 ->     6970  [补丁]

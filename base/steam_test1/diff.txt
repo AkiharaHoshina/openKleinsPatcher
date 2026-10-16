@@ -1,0 +1,70 @@
+字节级权威差异表
+  干净端: F:\originKleinsSteam
+  补丁端: F:\KleinsTest1
+
+  相同文件      : 22910
+  删除(只在A)   : 0
+  新增(只在B)   : 25
+  长度变化      : 25
+  ★等长但内容不同: 2
+
+=== ★ 等长但内容不同（纯长度比对会全漏）===
+  GameAssembly.dll  (47953920 字节)  [补丁]  c875a76e7fe4 -> 5128e1757976
+  环行旅舍_Data/resources.assets  (1100624 字节)  [补丁]  5ecb69edb6ba -> 3ad387724620
+
+=== 新增文件 ===
+  Win/lua/logic/common/config_data_center_orig.lua  [补丁]  8982 字节
+  Win/lua/logic/common/uimgr_orig.lua  [补丁]  11253 字节
+  Win/lua/logic/framework/net_error_handler_orig.lua  [补丁]  10559 字节
+  Win/lua/logic/login_ui/logic_login_main_orig.lua  [补丁]  11703 字节
+  Win/lua/logic/login_ui/view_game_main_ui_orig.lua  [补丁]  8791 字节
+  Win/lua/logic/login_ui/view_login_ui_orig.lua  [补丁]  10622 字节
+  Win/lua/logic/mail_ui/logic_mail_orig.lua  [补丁]  5721 字节
+  Win/lua/logic/notice_ui/view_normal_notice_ui_orig.lua  [补丁]  10783 字节
+  Win/lua/logic/recruit_pay_ui/view_recruit_pay_ui_orig.lua  [补丁]  14626 字节
+  Win/lua/logic/recruit_pay_ui/view_recruit_share_ui_orig.lua  [补丁]  3607 字节
+  Win/lua/logic/role_info_ui/logic_role_data_orig.lua  [补丁]  31728 字节
+  Win/lua/logic/role_info_ui/logic_role_orig.lua  [补丁]  11605 字节
+  Win/lua/logic/role_post/logic_change_scene_orig.lua  [补丁]  2585 字节
+  Win/lua/logic/role_queue/view_role_queue_base_orig.lua  [补丁]  5281 字节
+  Win/lua/logic/role_ui/role_skin_ui/logic_role_skin_orig.lua  [补丁]  4518 字节
+  Win/lua/logic/role_ui/role_skin_ui/view_role_skin_base_orig.lua  [补丁]  10621 字节
+  Win/lua/logic/select_role_ui/select_role/view_role_select_base_orig.lua  [补丁]  36432 字节
+  Win/lua/logic/setting_ui/view_setting_ui_orig.lua  [补丁]  3500 字节
+  Win/lua/logic/shop_ui/logic_shop_orig.lua  [补丁]  16062 字节
+  Win/lua/logic/shop_ui/sub_shop/view_shop_gift_ui_orig.lua  [补丁]  4035 字节
+  Win/lua/logic/shop_ui/sub_shop/view_shop_heterochromatic_ui_orig.lua  [补丁]  4185 字节
+  Win/lua/logic/shop_ui/sub_shop/view_shop_today_ui_orig.lua  [补丁]  6198 字节
+  Win/lua/logic/shop_ui/view_pop_buy_item_ui_orig.lua  [补丁]  11069 字节
+  Win/lua/logic/shop_ui/view_pop_buy_month_card_ui_orig.lua  [补丁]  7434 字节
+  Win/lua/logic/task_ui/logic_task_main_orig.lua  [补丁]  11253 字节
+
+=== 删除文件 ===
+  （无）
+
+=== 长度变化 ===
+  Win/lua/logic/common/config_data_center.lua                                  8982 ->    11873  [补丁]
+  Win/lua/logic/common/uimgr.lua                                              11253 ->     3373  [补丁]
+  Win/lua/logic/framework/net_error_handler.lua                               10559 ->     2869  [补丁]
+  Win/lua/logic/login_ui/logic_login_main.lua                                 11703 ->     1355  [补丁]
+  Win/lua/logic/login_ui/view_game_main_ui.lua                                 8791 ->     3597  [补丁]
+  Win/lua/logic/login_ui/view_login_ui.lua                                    10622 ->     3783  [补丁]
+  Win/lua/logic/mail_ui/logic_mail.lua                                         5721 ->      765  [补丁]
+  Win/lua/logic/notice_ui/view_normal_notice_ui.lua                           10783 ->     1819  [补丁]
+  Win/lua/logic/recruit_pay_ui/view_recruit_pay_ui.lua                        14626 ->    16683  [补丁]
+  Win/lua/logic/recruit_pay_ui/view_recruit_share_ui.lua                       3607 ->     1364  [补丁]
+  Win/lua/logic/role_info_ui/logic_role.lua                                   11605 ->     1303  [补丁]
+  Win/lua/logic/role_info_ui/logic_role_data.lua                              31728 ->     7402  [补丁]
+  Win/lua/logic/role_post/logic_change_scene.lua                               2585 ->      442  [补丁]
+  Win/lua/logic/role_queue/view_role_queue_base.lua                            5281 ->     3447  [补丁]
+  Win/lua/logic/role_ui/role_skin_ui/logic_role_skin.lua                       4518 ->     1413  [补丁]
+  Win/lua/logic/role_ui/role_skin_ui/view_role_skin_base.lua                  10621 ->      880  [补丁]
+  Win/lua/logic/select_role_ui/select_role/view_role_select_base.lua          36432 ->     3465  [补丁]
+  Win/lua/logic/setting_ui/view_setting_ui.lua                                 3500 ->     3107  [补丁]
+  Win/lua/logic/shop_ui/logic_shop.lua                                        16062 ->     3997  [补丁]
+  Win/lua/logic/shop_ui/sub_shop/view_shop_gift_ui.lua                         4035 ->     1607  [补丁]
+  Win/lua/logic/shop_ui/sub_shop/view_shop_heterochromatic_ui.lua              4185 ->     1629  [补丁]
+  Win/lua/logic/shop_ui/sub_shop/view_shop_today_ui.lua                        6198 ->     1609  [补丁]
+  Win/lua/logic/shop_ui/view_pop_buy_item_ui.lua                              11069 ->     1490  [补丁]
+  Win/lua/logic/shop_ui/view_pop_buy_month_card_ui.lua                         7434 ->     3630  [补丁]
+  Win/lua/logic/task_ui/logic_task_main.lua                                   11253 ->     1236  [补丁]

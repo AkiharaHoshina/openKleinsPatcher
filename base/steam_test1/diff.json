@@ -1,0 +1,232 @@
+{
+ "added": [
+  "Win/lua/logic/common/config_data_center_orig.lua",
+  "Win/lua/logic/common/uimgr_orig.lua",
+  "Win/lua/logic/framework/net_error_handler_orig.lua",
+  "Win/lua/logic/login_ui/logic_login_main_orig.lua",
+  "Win/lua/logic/login_ui/view_game_main_ui_orig.lua",
+  "Win/lua/logic/login_ui/view_login_ui_orig.lua",
+  "Win/lua/logic/mail_ui/logic_mail_orig.lua",
+  "Win/lua/logic/notice_ui/view_normal_notice_ui_orig.lua",
+  "Win/lua/logic/recruit_pay_ui/view_recruit_pay_ui_orig.lua",
+  "Win/lua/logic/recruit_pay_ui/view_recruit_share_ui_orig.lua",
+  "Win/lua/logic/role_info_ui/logic_role_data_orig.lua",
+  "Win/lua/logic/role_info_ui/logic_role_orig.lua",
+  "Win/lua/logic/role_post/logic_change_scene_orig.lua",
+  "Win/lua/logic/role_queue/view_role_queue_base_orig.lua",
+  "Win/lua/logic/role_ui/role_skin_ui/logic_role_skin_orig.lua",
+  "Win/lua/logic/role_ui/role_skin_ui/view_role_skin_base_orig.lua",
+  "Win/lua/logic/select_role_ui/select_role/view_role_select_base_orig.lua",
+  "Win/lua/logic/setting_ui/view_setting_ui_orig.lua",
+  "Win/lua/logic/shop_ui/logic_shop_orig.lua",
+  "Win/lua/logic/shop_ui/sub_shop/view_shop_gift_ui_orig.lua",
+  "Win/lua/logic/shop_ui/sub_shop/view_shop_heterochromatic_ui_orig.lua",
+  "Win/lua/logic/shop_ui/sub_shop/view_shop_today_ui_orig.lua",
+  "Win/lua/logic/shop_ui/view_pop_buy_item_ui_orig.lua",
+  "Win/lua/logic/shop_ui/view_pop_buy_month_card_ui_orig.lua",
+  "Win/lua/logic/task_ui/logic_task_main_orig.lua"
+ ],
+ "counts": {
+  "added": 25,
+  "deleted": 0,
+  "patched": 22962,
+  "pristine": 22937,
+  "same": 22910,
+  "samelen_changed": 2,
+  "size_changed": 25
+ },
+ "deleted": [],
+ "patched_root": "F:\\KleinsTest1",
+ "pristine_root": "F:\\originKleinsSteam",
+ "samelen_changed": [
+  {
+   "path": "GameAssembly.dll",
+   "sha_new": "5128e17579762deaa682acfba8b95319ccd620b2929977bf0ab0d489bd1e27fb",
+   "sha_old": "c875a76e7fe48ee16cd9aa5b07470933bca5db3924e3bba12239a191339ebed8",
+   "size": 47953920
+  },
+  {
+   "path": "环行旅舍_Data/resources.assets",
+   "sha_new": "3ad387724620c7ec4b35dab196484412c52c39a9aa3b450c5c84a61aa59a008e",
+   "sha_old": "5ecb69edb6ba825751b1aefdf4470e9526f58e0ddb47b369014f718c7b20c74b",
+   "size": 1100624
+  }
+ ],
+ "size_changed": [
+  {
+   "from": 8982,
+   "path": "Win/lua/logic/common/config_data_center.lua",
+   "sha_new": "c3b0e312d751659d94da6d55b908ae6f521b67b8b9636a23c79cfda4610d79d0",
+   "sha_old": "3b01443c9aca067ef3eb6d09b778b5708a094b31e7659a5304e720caafa70cad",
+   "to": 11873
+  },
+  {
+   "from": 14626,
+   "path": "Win/lua/logic/recruit_pay_ui/view_recruit_pay_ui.lua",
+   "sha_new": "ee21d1f6951ed832e51aa6c56367bb3b23288e7cdd134899d60811a54aef418a",
+   "sha_old": "0276cee872a22404eb5e3e9b5fa1288f839d360534ab3b1e43180e6798939702",
+   "to": 16683
+  },
+  {
+   "from": 11253,
+   "path": "Win/lua/logic/common/uimgr.lua",
+   "sha_new": "e413b3b51a9e22b7f56d836e91cde4bebd4a27e2b7b1f22cac71f06eb1a82767",
+   "sha_old": "bea4932d4af60255328941a69c5c3ab5a150312cbb6d92f03369666afe38a2b9",
+   "to": 3373
+  },
+  {
+   "from": 10559,
+   "path": "Win/lua/logic/framework/net_error_handler.lua",
+   "sha_new": "baf4635e61e569ab6d2c2a8cbde52335a60978b92f53bd927116d2ea6b80e4a5",
+   "sha_old": "0afff950a4f485602418cbdbd18695dc6263a1ec4b2311ac6a9efcb57e9114f5",
+   "to": 2869
+  },
+  {
+   "from": 11703,
+   "path": "Win/lua/logic/login_ui/logic_login_main.lua",
+   "sha_new": "fbd3fce793fe58a502eee521db8c38f54087fd79528c24130e90ded195b9a9cb",
+   "sha_old": "488f0aacd81ba369e75c33086b06f7fa26cf6200997be4ad3078b6b9d6f209b5",
+   "to": 1355
+  },
+  {
+   "from": 8791,
+   "path": "Win/lua/logic/login_ui/view_game_main_ui.lua",
+   "sha_new": "c032edd7460c640d85adb8ec428f256958b1f60383357bcc6055c4ea931b4784",
+   "sha_old": "32788f73245079381347852e50e4acd8faa4e0c9f4cdafa950d058be6becf51d",
+   "to": 3597
+  },
+  {
+   "from": 10622,
+   "path": "Win/lua/logic/login_ui/view_login_ui.lua",
+   "sha_new": "0b96fafb7a7fb2a5b658f62829a6fd423eed7615ac321e961af196220a84c2f0",
+   "sha_old": "47159d31072f99f1942e5ddb3f4bcb274929f6001e88b4d8079295f9d501818c",
+   "to": 3783
+  },
+  {
+   "from": 5721,
+   "path": "Win/lua/logic/mail_ui/logic_mail.lua",
+   "sha_new": "d4fcfbc81c82aeffcf569f0f809bc5393becb40004675c34664e6dd6ffb3f956",
+   "sha_old": "b8ebeb3b800d016097015e7edfbcf85fe2e37a0419889110918400a2e006c9dc",
+   "to": 765
+  },
+  {
+   "from": 10783,
+   "path": "Win/lua/logic/notice_ui/view_normal_notice_ui.lua",
+   "sha_new": "f3cc91e4a791f88eb931aee2ca64e235b443faf55f56d380a8be3666d2fee866",
+   "sha_old": "048e6135b55a7f512849eeb71343a0360569215246268d099110fd3d594ef6a6",
+   "to": 1819
+  },
+  {
+   "from": 3607,
+   "path": "Win/lua/logic/recruit_pay_ui/view_recruit_share_ui.lua",
+   "sha_new": "432fce4794d3cce5d81d91009686e8e5ba1c70326dc421251ae39460d1726833",
+   "sha_old": "8a625c7c878414a8f66e85ee5228aecc508b0e9a01a4693055a2f1944b40f5f2",
+   "to": 1364
+  },
+  {
+   "from": 11605,
+   "path": "Win/lua/logic/role_info_ui/logic_role.lua",
+   "sha_new": "5f65f9fe185cc9e9583f6665804a6949fb8a86a82c77e90171e6251d6918b9b7",
+   "sha_old": "5aa410288f4a16d5595a7994dc1b6ad7e59fcdbb143eb7d32eb43a66e6305ece",
+   "to": 1303
+  },
+  {
+   "from": 31728,
+   "path": "Win/lua/logic/role_info_ui/logic_role_data.lua",
+   "sha_new": "a524f3c050aaf59f578120bfcd85ba8595c4adea3dce10cd1ff905c07265d35d",
+   "sha_old": "cad7273bada1c0169294a03213daaddf7d8bf89a5f3ac907220067c9ab58cc8b",
+   "to": 7402
+  },
+  {
+   "from": 2585,
+   "path": "Win/lua/logic/role_post/logic_change_scene.lua",
+   "sha_new": "9d25b743df697d082ed93b14edaea6d699dfb10a48f2d9956ff89b6383d35624",
+   "sha_old": "b50d19a1e2111d9425ba1474d0c23aa51b96e8315b0622f334aeab3c7660204c",
+   "to": 442
+  },
+  {
+   "from": 5281,
+   "path": "Win/lua/logic/role_queue/view_role_queue_base.lua",
+   "sha_new": "f21e27ae718859eb5076cfaa2cbaa7cd22fdba073491ed56051c7938935078fe",
+   "sha_old": "8664dd4a128927b8ee1a432f873bd885bdec934038b1eafbcf3cf15a217a435a",
+   "to": 3447
+  },
+  {
+   "from": 4518,
+   "path": "Win/lua/logic/role_ui/role_skin_ui/logic_role_skin.lua",
+   "sha_new": "72063dabe9a56a468de2db332293ca3c8e8e8e3b52a9f78d6c06f7fc0ec03c2d",
+   "sha_old": "f30141039d71704643632c47a051e9ac6adac76e98be8549f2418d700adc97eb",
+   "to": 1413
+  },
+  {
+   "from": 10621,
+   "path": "Win/lua/logic/role_ui/role_skin_ui/view_role_skin_base.lua",
+   "sha_new": "d69bd4ecdcba81a8bfb35c6694a12c200d0b611fcbbad270bdc142e5bf568704",
+   "sha_old": "b0f51a90a58fe7fae6fc86d7307e836c37968ee82532ec7a8c3583a0574fa9f7",
+   "to": 880
+  },
+  {
+   "from": 36432,
+   "path": "Win/lua/logic/select_role_ui/select_role/view_role_select_base.lua",
+   "sha_new": "d7851ede76eb9cada2eaaf01cca6f22f0ac07ac7266e040dcf3b6521f66a308b",
+   "sha_old": "7cf88a4630aea92409b3264c89c9124b3b3ad47b59c438232ba98c5ac2d705ea",
+   "to": 3465
+  },
+  {
+   "from": 3500,
+   "path": "Win/lua/logic/setting_ui/view_setting_ui.lua",
+   "sha_new": "0e92c3a3112ac242ac2e9f72f596f448c5a339d8e2595c13666bea4e328c1789",
+   "sha_old": "216c5806fc75b71de8f1152f360c7ebf695d5ad1135504b9db737534a8b3273c",
+   "to": 3107
+  },
+  {
+   "from": 16062,
+   "path": "Win/lua/logic/shop_ui/logic_shop.lua",
+   "sha_new": "36f65898d2f3d5ffa769593f99affdee5ecab5b1262985d90abd56d637ddfa19",
+   "sha_old": "cf8cb9f4ddc89bda4f4a7d5625773374e6e47bbaa5ed01c0069d716379ce608b",
+   "to": 3997
+  },
+  {
+   "from": 4035,
+   "path": "Win/lua/logic/shop_ui/sub_shop/view_shop_gift_ui.lua",
+   "sha_new": "0226aa0720338cebc061bf753216caca40f6b6c1fc6ea2f1607325771bcd2bf4",
+   "sha_old": "05dd86f5484aee99f1567b6cfea28f8afd7eec78a8d55e0ffbba55fd7cbf4f7b",
+   "to": 1607
+  },
+  {
+   "from": 4185,
+   "path": "Win/lua/logic/shop_ui/sub_shop/view_shop_heterochromatic_ui.lua",
+   "sha_new": "177818c621b46e9cd30630729ab8dded6de49598f4f8486996af6e149ffad2bd",
+   "sha_old": "1eced6b2a44a7730b6dbb2fa7c683de47e9d0eb6054014eff242e97d40b8d89f",
+   "to": 1629
+  },
+  {
+   "from": 6198,
+   "path": "Win/lua/logic/shop_ui/sub_shop/view_shop_today_ui.lua",
+   "sha_new": "df8917cd24adf07bbf8b06be1944c7a6f7bf85e5bb8b3ab5ba21c6f655e9a796",
+   "sha_old": "b9607c5258d0b4670783529a9e7d1004d6cfceccf1f0d30c5c494b7df37b55fe",
+   "to": 1609
+  },
+  {
+   "from": 11069,
+   "path": "Win/lua/logic/shop_ui/view_pop_buy_item_ui.lua",
+   "sha_new": "b843646f308636928c49256209ff8b6d826e7d81c84ddc953a61a6eadb88f72c",
+   "sha_old": "6fb6656280ee30b2a242372e8943de34a36e3667e500cb54796056a099a03469",
+   "to": 1490
+  },
+  {
+   "from": 7434,
+   "path": "Win/lua/logic/shop_ui/view_pop_buy_month_card_ui.lua",
+   "sha_new": "5cdded63a8122e2bbb66c3398aead18d93c264c41b9d6db66195c0ce4f4268ae",
+   "sha_old": "e01a7137a41c466b04efa37b9c3b948c5f295960cd52bf5dfe02878da85ad174",
+   "to": 3630
+  },
+  {
+   "from": 11253,
+   "path": "Win/lua/logic/task_ui/logic_task_main.lua",
+   "sha_new": "bd89d0ae12a8d19db6304715157b7a57e9897c32a7a157650c3da4bda6d513fc",
+   "sha_old": "f36d569a98b4b1f1993c62f6ce12b6f4fecc9ef5cf317bd220b006d3f773a30c",
+   "to": 1236
+  }
+ ]
+}

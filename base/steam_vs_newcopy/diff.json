@@ -1,0 +1,17 @@
+{
+ "added": [],
+ "counts": {
+  "added": 0,
+  "deleted": 0,
+  "patched": 22937,
+  "pristine": 22937,
+  "same": 22937,
+  "samelen_changed": 0,
+  "size_changed": 0
+ },
+ "deleted": [],
+ "patched_root": "F:\\KleinsPatchNew",
+ "pristine_root": "F:\\originKleinsSteam",
+ "samelen_changed": [],
+ "size_changed": []
+}
